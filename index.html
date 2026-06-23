@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Windsor Grill</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box;margin:0;padding:0}:root{--a:#C9A84C;--bg:#07050A;--text:#F0EAD6}body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-weight:300;line-height:1.6}
+a{color:inherit;text-decoration:none}.btn{display:inline-block;padding:14px 36px;background:var(--a);color:#07050A;font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:500;cursor:pointer}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:24px 5%;background:linear-gradient(var(--bg),transparent)}
+.logo{font-family:'Cormorant Garamond',serif;font-size:20px;letter-spacing:6px;color:var(--a);text-transform:uppercase}
+#hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 5% 80px;background:radial-gradient(ellipse 80% 60% at 50% 40%,#1c100a,var(--bg))}
+.hero-label{font-size:9px;letter-spacing:8px;color:var(--a);text-transform:uppercase;margin-bottom:28px}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(52px,10vw,120px);font-weight:300;line-height:.92;margin-bottom:28px}
+h1 em{font-style:italic;color:var(--a)}
+.hero-sub{font-size:12px;letter-spacing:4px;color:rgba(240,234,214,.5);text-transform:uppercase;margin-bottom:48px}
+section{padding:100px 5%}.section-label{font-size:9px;letter-spacing:6px;color:var(--a);text-transform:uppercase;margin-bottom:20px}
+h2{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,6vw,72px);font-weight:300;line-height:1.1;margin-bottom:24px}
+h2 em{font-style:italic;color:var(--a)}.divider{border:none;border-top:1px solid rgba(201,168,76,.2);margin:0}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2px;margin-top:48px}
+.menu-item{padding:32px;background:rgba(201,168,76,.04);border:1px solid rgba(201,168,76,.1)}
+.menu-item h3{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:300;color:var(--a);margin-bottom:8px}
+.menu-item p{font-size:13px;color:rgba(240,234,214,.5);line-height:1.7}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;margin-top:48px}
+.info-block p:first-child{font-size:9px;letter-spacing:4px;color:var(--a);text-transform:uppercase;margin-bottom:12px}
+.info-block p{font-size:14px;color:rgba(240,234,214,.6)}
+footer{padding:48px 5%;border-top:1px solid rgba(201,168,76,.15);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px}
+.footer-logo{font-family:'Cormorant Garamond',serif;font-size:22px;letter-spacing:6px;color:var(--a)}
+.footer-info{font-size:11px;color:rgba(240,234,214,.3);text-align:right;line-height:1.8}
+@media(max-width:600px){nav{padding:20px 5%}.footer-info{text-align:left}}</style></head><body>
+<nav><div class="logo">Windsor Grill</div><a href="#contact" class="btn">Book a Table</a></nav>
+<section id="hero"><div>
+<p class="hero-label">Est. in Windsor</p>
+<h1>A Dining<br>Experience<br>to <em>Remember</em></h1>
+<p class="hero-sub">Fine Food · Warm Hospitality · Windsor</p>
+<a href="#contact" class="btn">Reserve Your Table</a>
+</div></section>
+<hr class="divider">
+<section id="about" style="background:#0d0a07">
+<p class="section-label">Our Story</p>
+<h2>Crafted with<br><em>passion & care</em></h2>
+<p style="max-width:560px;font-size:15px;color:rgba(240,234,214,.6);line-height:1.9">At Windsor Grill, we believe a great meal is more than food — it's a moment. Located in the heart of Windsor, we bring together the finest seasonal ingredients and genuine hospitality to create something truly special.</p>
+</section>
+<hr class="divider">
+<section id="menu">
+<p class="section-label">What We Offer</p>
+<h2>Our <em>Signature</em> Selection</h2>
+<div class="menu-grid">
+<div class="menu-item"><h3>Starters</h3><p>Carefully curated small plates to open your palate and set the tone for the evening ahead.</p></div>
+<div class="menu-item"><h3>Mains</h3><p>Seasonal dishes crafted from locally sourced ingredients, prepared fresh to order every time.</p></div>
+<div class="menu-item"><h3>Desserts</h3><p>A sweet finale — from classic comfort to contemporary creations made in-house daily.</p></div>
+<div class="menu-item"><h3>Drinks</h3><p>An expertly chosen selection of wines, cocktails and soft beverages to complement your meal.</p></div>
+</div>
+</section>
+<hr class="divider">
+<section id="contact" style="background:#0d0a07;text-align:center">
+<p class="section-label">Get in Touch</p>
+<h2>Ready to <em>Visit Us?</em></h2>
+<p style="font-size:15px;color:rgba(240,234,214,.5);margin-bottom:48px">We'd love to have you. Call to book or drop us a message.</p>
+<div class="info-grid" style="max-width:600px;margin:0 auto 48px">
+<div class="info-block"><p>Phone</p><p>+44 1753 859 658</p></div>
+<div class="info-block"><p>Location</p><p>65, St Leonards Road, Windsor</p></div>
+<div class="info-block"><p>Email</p><p>info@windsorgrill.co.uk</p></div>
+</div>
+<a href="tel:+44 1753 859 658" class="btn">Call Now</a>
+</section>
+<footer>
+<div class="footer-logo">Windsor Grill</div>
+<div class="footer-info">65, St Leonards Road, Windsor<br>© 2026 Windsor Grill. All rights reserved.</div>
+</footer></body></html>
